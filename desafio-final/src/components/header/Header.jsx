@@ -1,12 +1,18 @@
 import scss from "./Header.module.scss";
 
+import logo from "../../assets/logo.png";
+import busca from "../../assets/busca.png";
+
 import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <header>
-      <h1>Eu sou a header</h1>
-      <nav>
+      <section className={scss.boxLogo}>
+        <img src={logo} alt="Imagem de um livro" />
+        <h1>Livros Vai na Web</h1>
+      </section>
+      <nav className={scss.boxMenu}>
         <ul>
           <li>
             <Link to="/">Inicio</Link>
@@ -19,6 +25,10 @@ export default function Header() {
           </li>
         </ul>
       </nav>
+      <div className={scss.boxInput}>
+        <input type="text" placeholder="O que você procura?"/>
+        <img src={busca} alt="Imagem de uma lupa" />
+      </div>
     </header>
   );
 }

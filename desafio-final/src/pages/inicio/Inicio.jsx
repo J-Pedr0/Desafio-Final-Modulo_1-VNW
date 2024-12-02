@@ -1,5 +1,7 @@
 import scss from "./inicio.module.scss";
 
+import Article from "../../components/props/articleInicio/ArticleInicio";
+
 import card1 from "../../assets/card1.png";
 import card2 from "../../assets/card2.png";
 import card3 from "../../assets/card3.png";
@@ -13,39 +15,65 @@ export default function Inicio() {
           <h2>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
         </div>
       </section>
-      <article className={scss.boxInicio}>
+
+      <section className={scss.boxInicio}>
         <section>
           <h2>Por que devo doar?</h2>
-          <article className={scss.boxCard}>
-            <div>
+          <div className={scss.boxCard}>
+            {/* <article>
               <img src={card1} alt="" />
               <p>
-                {" "}
                 Oferece livros a quem não tem acesso, ajudando a reduzir a
                 exclusão social.
               </p>
-            </div>
-            <div>
+            </article>
+            <article>
               <img src={card2} alt="" />
               <p>Estimula o hábito da leitura e o aprendizado contínuo.</p>
-            </div>
-            <div>
+            </article>
+            <article>
               <img src={card3} alt="" />
               <p>
                 Fornece conhecimento e inspiração, permitindo que indivíduos
                 transformem suas vidas.
               </p>
-            </div>
-            <div>
+            </article>
+            <article>
               <img src={card4} alt="" />
               <p>
                 Garante que todos, independentemente de sua condição, tenham
                 oportunidades de aprendizado.
               </p>
-            </div>
-          </article>
+            </article> */}
+
+            <Article
+              img={card1}
+              texto={
+                "Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social."
+              }
+            />
+
+            <Article
+              img={card2}
+              texto={"Estimula o hábito da leitura e o aprendizado contínuo."}
+            />
+
+            <Article
+              img={card3}
+              texto={
+                "Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas."
+              }
+            />
+
+            <Article
+              img={card4}
+              texto={
+                "Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado."
+              }
+            />
+          </div>
         </section>
-      </article>
+      </section>
     </main>
   );
 }

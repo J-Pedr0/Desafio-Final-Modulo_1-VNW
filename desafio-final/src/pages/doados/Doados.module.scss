@@ -1,5 +1,12 @@
+.boxDoados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .boxTitulo {
-  //   border: solid 2px red;
+  // border: solid 2px red;
   height: 8vh;
   display: flex;
   align-items: end;
@@ -7,31 +14,21 @@
 }
 
 .boxLivros {
-  // border: solid 2px blue;
-  height: auto;
+  // border: solid 2px greenyellow;
+  width: 85vw;
+  height: 60vh;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  padding: 1vw;
-  gap: 1vw;
-}
+  justify-content: first baseline;
 
-.boxCard {
-  border: solid 3px blue;
-  width: 13vw;
-  height: auto;
-  border-radius: 14px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  img {
-    max-width: 50%;
-    height: auto;
-  }
-  p {
-    text-align: center;
-  }
+  // article {
+  //   border: solid 2px #005695;
+  //   width: 15vw;
+  //   height: 32vh;
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   justify-content: space-evenly;
+  //   border-radius: 15px;
+  //   margin: 1vw;
+  // }
 }

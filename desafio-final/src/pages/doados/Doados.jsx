@@ -1,32 +1,35 @@
 import scss from "./Doados.module.scss";
 
-import livroProtagonista from "../../assets/livro_protagonista.png";
+import Article from "../../components/props/articleLivroDoados/ArticleLivroDoado";
+import livro from "../../assets/livro.png";
 
 export default function Doados() {
-  const livros = [
-    {
-      id: 1,
-      imagem: livroProtagonista,
-      titulo: "O Protagonista",
-      autor: "Susanne Andrade",
-      genero: "Ficção",
-    },
-  ];
-
   return (
-    <main>
+    <main className={scss.boxDoados}>
       <section className={scss.boxTitulo}>
-        <h1>Livros Doados</h1>
+        <h2>Livros Doados</h2>
       </section>
       <section className={scss.boxLivros}>
-        {livros.map((livro) => (
-          <div key={livro.id} className={scss.boxCard}>
-            <img src={livro.imagem} alt={`Capa do livro ${livro.titulo}`} />
-            <p>{livro.titulo}</p>
-            <p>{livro.autor}</p>
-            <p>{livro.genero}</p>
-          </div>
-        ))}
+        {/* <article>
+          <img src={livro} alt="Imagem do livro o protagonista" />
+          <h3>O Protagonista</h3>
+          <p>Susanne Andrade</p>
+          <p>Ficção</p>
+        </article> */}
+
+        <Article
+          linkImg={livro}
+          titulo={"O Protagonista"}
+          autor={"Susanne Andrade"}
+          genero={"Ficção"}
+        />
+
+        <Article
+          linkImg={livro}
+          titulo={"O Protagonista"}
+          autor={"Susanne Andrade"}
+          genero={"Ficção"}
+        />
       </section>
     </main>
   );

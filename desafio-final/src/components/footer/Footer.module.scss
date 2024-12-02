@@ -10,7 +10,7 @@ footer {
     justify-content: center;
     p {
       color: #ffffffdb;
-      font-size: 15px;
+      font-size: 16px;
     }
   }
 }
@@ -21,15 +21,17 @@ footer {
   justify-content: space-between;
   padding-left: 3vw;
   padding-right: 3vw;
-}
-
-.boxDivContato {
-  // border: solid 2px brown;
-  width: 5.5vw;
-  height: 5vh;
-  display: flex;
-  align-items: end;
-  justify-content: center;
+  div {
+    // border: solid 2px brown;
+    width: 8vw;
+    height: 5vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    h3 {
+      color: #ffffffdb;
+    }
+  }
 }
 
 .boxSocial {

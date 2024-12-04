@@ -50,3 +50,82 @@
     }
   }
 }
+
+@media (max-width: 1208px) {
+  form {
+    width: 45vw;
+    height: 50vh;
+
+    input {
+      border: solid 2px#005695;
+      width: 35vw;
+      height: 5vh;
+      border-radius: 10px;
+      outline: none;
+      padding-left: 0.75vw;
+
+      &::placeholder {
+        color: black;
+      }
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    h2 {
+      font-size: 18px;
+      text-align: center;
+      width: 50vw;
+    }
+  }
+
+  form {
+    width: 55vw;
+    height: 55vh;
+
+    input {
+      border: solid 2px#005695;
+      width: 40vw;
+      height: 5vh;
+      border-radius: 15px;
+      outline: none;
+      padding-left: 0.75vw;
+      &::placeholder {
+        color: black;
+      }
+    }
+  }
+}
+
+@media (max-width: 474px) {
+  .container {
+    h2 {
+      font-size: 16px;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  form {
+    width: 85vw;
+    height: 45vh;
+
+    input {
+      border: solid 2px#005695;
+      width: 65vw;
+      height: 5vh;
+      border-radius: 15px;
+      outline: none;
+      padding-left: 0.9vw;
+      &::placeholder {
+        color: black;
+      }
+    }
+  }
+
+  .doar {
+    width: 20vw;
+    height: 6vh;
+  }
+}

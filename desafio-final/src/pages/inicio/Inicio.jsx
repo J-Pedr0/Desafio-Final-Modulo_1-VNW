@@ -17,10 +17,11 @@ export default function Inicio() {
       </section>
 
       <section className={scss.boxInicio}>
-        <section>
+        <div>
           <h2>Por que devo doar?</h2>
-          <div className={scss.boxCard}>
-            {/* <article>
+        </div>
+        <section className={scss.boxCard}>
+          {/* <article>
               <img src={card1} alt="" />
               <p>
                 Oferece livros a quem não tem acesso, ajudando a reduzir a
@@ -46,32 +47,31 @@ export default function Inicio() {
               </p>
             </article> */}
 
-            <Article
-              img={card1}
-              texto={
-                "Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social."
-              }
-            />
+          <Article
+            img={card1}
+            texto={
+              "Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social."
+            }
+          />
 
-            <Article
-              img={card2}
-              texto={"Estimula o hábito da leitura e o aprendizado contínuo."}
-            />
+          <Article
+            img={card2}
+            texto={"Estimula o hábito da leitura e o aprendizado contínuo."}
+          />
 
-            <Article
-              img={card3}
-              texto={
-                "Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas."
-              }
-            />
+          <Article
+            img={card3}
+            texto={
+              "Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas."
+            }
+          />
 
-            <Article
-              img={card4}
-              texto={
-                "Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado."
-              }
-            />
-          </div>
+          <Article
+            img={card4}
+            texto={
+              "Garante que todos, independente de sua condição, tenham oportunidades de aprendizado."
+            }
+          />
         </section>
       </section>
     </main>

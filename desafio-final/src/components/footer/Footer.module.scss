@@ -36,9 +36,87 @@ footer {
 
 .boxSocial {
   // border: solid 2px yellow;
-  width: 13.5vw;
+  width: 15vw;
   height: 5vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 1315px) {
+  .boxContato {
+    div {
+      // border: solid 2px green;
+      width: 14vw;
+    }
+  }
+  .boxSocial {
+    // border: solid 2px yellow;
+    a {
+      img {
+        width: 2.5vw;
+      }
+    }
+  }
+  footer {
+    section{
+      height: 6vh;
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  .boxContato {
+    
+    height: 10vw;
+    div {
+      // border: solid 2px green;
+      width: 30vw;
+    }
+  }
+  .boxSocial {
+    // border: solid 2px yellow;
+    width: 25vw;
+
+    a {
+      img {
+        width: 3.5vw;
+      }
+    }
+  }
+  footer {
+    section{
+      height: 6vh;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .boxContato {
+    
+    height: 20vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    div {
+      // border: solid 2px green;
+      width: 100vw;
+    }
+  }
+  .boxSocial {
+    // border: solid 2px yellow;
+    width: 80vw;
+    justify-content: space-evenly;
+
+    a {
+      img {
+        width: 5.5vw;
+      }
+    }
+  }
+  footer {
+    section{
+      height: 10vh;
+    }
+  }
 }

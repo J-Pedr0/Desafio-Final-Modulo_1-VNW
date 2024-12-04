@@ -1,4 +1,4 @@
-import scss from "./inicio.module.scss";
+import scss from "./Inicio.module.scss"
 
 import Article from "../../components/props/articleInicio/ArticleInicio";
 

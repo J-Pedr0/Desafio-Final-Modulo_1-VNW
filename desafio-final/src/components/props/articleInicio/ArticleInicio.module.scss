@@ -15,35 +15,52 @@
     width: 12vw;
     text-align: center;
     padding-top: 3vh;
+    width: 90%;
   }
 }
 
 @media (max-width: 1055px) {
-  .article {
-    width: 18vw;
-    p {
-      font-size: 14px;
+  .article{
+    // border: solid 2px black;
+    width: 200px;
+    height: 240px;
+
+    img{
+      width: 8vw;
     }
+    p{
+      // border: solid 2px yellowgreen;
+    }
+
   }
 }
 
-@media (max-width: 900px) {
-  .article {
-    width: 30vw;
-    height: 38vh;
-    p {
-      font-size: 14px;
+@media (max-width: 845px) {
+  .article{
+    // border: solid 2px black;
+    height: 230px;
+
+    img{
+      width: 9.5vw;
     }
+    p{
+      // border: solid 2px yellowgreen;
+      padding-top: 1vh;
+    }
+
   }
 }
 
-@media (max-width: 900px) {
-  .article {
-    width: 30vw;
-    height: 38vh;
-    p {
-      // font-size: 14px;
+@media (max-width: 630px) {
+  .article{
+    // border: solid 2px black;
+
+    img{
+      width: 70px;
     }
+    p{
+      // border: solid 2px yellowgreen;
+    }
+
   }
 }
-

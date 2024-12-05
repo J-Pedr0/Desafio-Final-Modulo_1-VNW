@@ -89,8 +89,13 @@ header {
       padding-left: 5px;
     }
   }
+
+  .boxMenu {
+    // border: solid 2px red;
+  }
+
   .boxInput {
-    // display: none;
+    // border: solid 2px yellow;
     width: 23vw;
     padding-left: 15px;
     input {
@@ -99,36 +104,65 @@ header {
   }
 }
 
-@media (max-width: 880px) {
-  header {
-    justify-content: space-evenly;
-    height: 12vh;
+@media (max-width: 1380px) {
+  .boxLogo {
+    // border: solid 2px yellow;
+    width: 25vw;
+    h1 {
+      padding-right: 0;
+    }
   }
+}
 
+@media (max-width: 845px) {
   .boxLogo {
     // border: solid 2px green;
-    width: 40vw;
 
-    img {
-      padding-left: 0;
-      width: 5vw;
-    }
     h1 {
-      font-size: 16px;
+    }
+    img {
     }
   }
 
   .boxMenu {
     // border: solid 2px red;
-    width: 55vw;
+    width: 40vw;
+  }
 
-    ul {
-      justify-content: space-evenly;
-      a {
-        font-size: 15px;
-      }
+  .boxInput {
+    // border: solid 2px yellow;
+    width: 25vw;
+    padding-left: 0;
+    input {
+      width: 20vw;
     }
+  }
+}
 
+@media (max-width: 780px) {
+  header {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20vh;
+  }
+
+  .boxLogo {
+    // border: solid 2px green;
+    width: 350px;
+    justify-content: center;
+
+    h1 {
+      font-size: 20px;
+      margin-left: 20px;
+    }
+    img {
+      width: 55px;
+    }
+  }
+
+  .boxMenu {
+    // border: solid 2px red;
+    width: 350px;
   }
 
   .boxInput {
@@ -136,57 +170,16 @@ header {
   }
 }
 
-@media (max-width: 430px) {
-  header {
-    flex-direction: column;
-    height: 25vw;
-    justify-content: space-evenly;
-  }
-
-  .boxLogo{
+@media (max-width: 370px) {
+  .boxLogo {
     // border: solid 2px green;
-    width: 60vw;
+    width: 95vw;
 
-    img{
-      padding-left: 0;
-      width: 8vw;
-    }
-    h1{
-      font-size: 20px;
-    }
+    
   }
 
-  .boxMenu{
+  .boxMenu {
     // border: solid 2px red;
-    width: 90vw;
-    padding-bottom: 10px;
-  }
-}
-
-@media (max-width: 330px) {
-  header {
-    flex-direction: column;
-    height: 30vw;
-    justify-content: space-evenly;
-  }
-
-  .boxLogo{
-    // border: solid 2px green;
-    width: 70vw;
-
-    img{
-      padding-left: 0;
-      width: 8vw;
-    }
-    h1{
-      font-size: 20px;
-    }
-  }
-
-  .boxMenu{
-    // border: solid 2px red;
-    width: 90vw;
-    padding-bottom: 10px;
-    justify-content: space-evenly;
+    width: 95vw;
   }
 }

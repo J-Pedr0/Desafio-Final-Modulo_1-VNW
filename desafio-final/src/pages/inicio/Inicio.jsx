@@ -69,7 +69,7 @@ export default function Inicio() {
           <Article
             img={card4}
             texto={
-              "Garante que todos, independente de sua condição, tenham oportunidades de aprendizado."
+              "Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado."
             }
           />
         </section>

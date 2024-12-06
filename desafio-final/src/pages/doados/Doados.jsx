@@ -30,6 +30,20 @@ export default function Doados() {
           autor={"Susanne Andrade"}
           genero={"Ficção"}
         />
+
+        <Article
+          linkImg={livro}
+          titulo={"O Protagonista"}
+          autor={"Susanne Andrade"}
+          genero={"Ficção"}
+        />
+
+        <Article
+          linkImg={livro}
+          titulo={"O Protagonista"}
+          autor={"Susanne Andrade"}
+          genero={"Ficção"}
+        />
       </section>
     </main>
   );

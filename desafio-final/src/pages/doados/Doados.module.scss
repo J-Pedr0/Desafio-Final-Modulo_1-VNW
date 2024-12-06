@@ -1,4 +1,6 @@
 .boxDoados {
+  // border: solid 2px red;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,10 +17,13 @@
 
 .boxLivros {
   // border: solid 2px greenyellow;
-  width: 85vw;
-  height: 60vh;
+  width: auto;
+  flex-wrap: wrap;
+  gap: 15px;
+  height: auto;
   display: flex;
-  justify-content: first baseline;
+  justify-content: center;
+  margin: 15px;
 
   // article {
   //   border: solid 2px #005695;
@@ -31,4 +36,7 @@
   //   border-radius: 15px;
   //   margin: 1vw;
   // }
+}
+
+@media (max-width: 370px) {
 }

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 export default function Article({ linkImg, titulo, autor, genero }) {
   return (
-    <article className={scss.article}>
+    <article className={scss.articleDoados}>
       <img src={linkImg} alt={`Imagem do livro ${titulo}`} />
       <h3>{titulo}</h3>
       <p>{autor}</p>

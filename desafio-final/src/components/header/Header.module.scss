@@ -90,10 +90,6 @@ header {
     }
   }
 
-  .boxMenu {
-    // border: solid 2px red;
-  }
-
   .boxInput {
     // border: solid 2px yellow;
     width: 23vw;
@@ -115,15 +111,6 @@ header {
 }
 
 @media (max-width: 845px) {
-  .boxLogo {
-    // border: solid 2px green;
-
-    h1 {
-    }
-    img {
-    }
-  }
-
   .boxMenu {
     // border: solid 2px red;
     width: 40vw;
@@ -174,12 +161,23 @@ header {
   .boxLogo {
     // border: solid 2px green;
     width: 95vw;
-
-    
   }
 
   .boxMenu {
     // border: solid 2px red;
     width: 95vw;
+
+    ul {
+      a {
+        font-size: 5.5vw;
+      }
+    }
   }
 }
+
+// @media (max-width: 310px) {
+//   .boxMenu {
+//     border: solid 2px red;
+
+//   }
+// }

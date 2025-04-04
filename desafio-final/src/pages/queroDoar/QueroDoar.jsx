@@ -1,4 +1,4 @@
-import Style from "./queroDoar.module.scss";
+import Style from "./QueroDoar.module.scss";
 import livro from "../../assets/Vector.png";
 import axios from "axios";
 import { useState } from "react";

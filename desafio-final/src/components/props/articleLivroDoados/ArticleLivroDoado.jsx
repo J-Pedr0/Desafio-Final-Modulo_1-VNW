@@ -2,9 +2,9 @@ import scss from "./ArticleLivroDoados.module.scss";
 
 import PropTypes from "prop-types";
 
-export default function Article({ linkImg, titulo, autor, genero }) {
+export default function Article({ id, linkImg, titulo, autor, genero }) {
   return (
-    <article className={scss.articleDoados}>
+    <article className={scss.articleDoados} key={id}>
       <img src={linkImg} alt={`Imagem do livro ${titulo}`} />
       <h3>{titulo}</h3>
       <p>{autor}</p>

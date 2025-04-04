@@ -8,6 +8,9 @@
   justify-content: space-evenly;
   border-radius: 15px;
   margin: 1vw;
+  img {
+    width: 5vw;
+  }
 }
 
 @media (max-width: 780px) {
@@ -20,7 +23,7 @@
     h3 {
       font-size: 16px;
     }
-    p{
+    p {
       font-size: 15px;
     }
   }
@@ -36,7 +39,7 @@
     h3 {
       font-size: 14px;
     }
-    p{
+    p {
       font-size: 13px;
     }
   }
